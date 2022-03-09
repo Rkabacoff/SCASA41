@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Rob Kabacoff
+title: About the presenter
 ---
 
 Rob Kabacoff is a professor of quantitative analytics at Wesleyan University. He is a data scientist with more than 30 years of experience in multivariate statistical methods, 
