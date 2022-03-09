@@ -1,6 +1,7 @@
 ---
 layout: page
-title: "Blog"
+title: "Modern Data Visualization with R"
 ---
 
-Under Construction
+# Under Construction
+come back soon!
