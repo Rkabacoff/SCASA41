@@ -3,6 +3,6 @@ layout: page
 title: "Modern Data Visualization with R"
 ---
 
-![](mosaic.png)
+![](mosaic.jpg)
 # Under Construction
 come back soon!
