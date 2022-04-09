@@ -7,7 +7,7 @@ title: "Course Schedule"
 
 Time| Topic
 ----|------
-09:05 AM – 10:00 AM | Session I
+09:05 AM – 10:00 AM | Session I - Introduction and case study
 10:00 AM – 10:15 AM | Break
 10:15 AM – 11:15 AM | Session II
 11:15 AM – 11:30 AM | Break
