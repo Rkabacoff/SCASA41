@@ -12,7 +12,8 @@ Before the workshop
 
 Next, install the following packages
 ```
-pkgs <- c("ggplot2", "dplyr", "mosaicData", "carData", "gapminder", "scales", "treemapify", "plotly", "leaflet", "ggridges")
+pkgs <- c("ggplot2", "dplyr", "mosaicData", "carData", "gapminder", 
+          "scales", "treemapify", "plotly", "leaflet", "ggridges")
 install.packages(pkgs)
 ```
 
