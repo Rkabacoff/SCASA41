@@ -18,6 +18,6 @@ install.packages(pkgs)
 
 If you are new to **R**, you may want to read [A (Very) Short Introduction to R](https://cran.r-project.org/doc/contrib/Torfs+Brauer-Short-R-Intro.pdf).
 
-## Under Construction (check back often)
+### This site is under construction - check back often
 
 
