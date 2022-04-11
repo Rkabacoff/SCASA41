@@ -13,7 +13,8 @@ Before the workshop
 Next, install the following packages
 ```
 pkgs <- c("ggplot2", "dplyr", "mosaicData", "carData", "gapminder", 
-          "scales", "treemapify", "plotly", "leaflet", "ggridges")
+          "scales", "treemapify", "plotly", "leaflet", "ggridges",
+          "ggbeeswarm")
 install.packages(pkgs)
 ```
 
