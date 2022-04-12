@@ -256,3 +256,50 @@ ggplot(plotdata,
        aes(x=lifeExp, 
            y=reorder(country, lifeExp))) +
   geom_point()
+
+
+## Bubble plot --------------------------------
+data(mtcars)
+ggplot(mtcars, aes(x = wt, y = mpg, size = hp)) +
+  geom_point()
+
+# create a bubble plot with modifications
+ggplot(mtcars, aes(x = wt, y = mpg, size = hp)) +
+  geom_point(alpha = .5, 
+             fill="cornflowerblue", 
+             color="black", 
+             shape=21) +
+  scale_size_continuous(range = c(1, 10))
+
+
+## Correlation plot -------------------------------
+data(SaratogaHouses, package="mosaicData")
+
+# select numeric variables
+df <- dplyr::select_if(SaratogaHouses, is.numeric)
+
+# calulate the correlations
+r <- cor(df, use="complete.obs")
+library(ggcorrplot)
+ggcorrplot(r, 
+           hc.order = TRUE, 
+           type = "lower",
+           lab = TRUE)
+
+## Mosaic plot --------------------------------
+library(vcd)
+mosaic(~Survived + Class, data=Titanic, shade=TRUE)
+mosaic(~Survived + Class + Sex, data=Titanic, shade=TRUE)
+
+## 3D Scatter plot ------------------------------
+#static
+library(scatterplot3d)
+with(mtcars, scatterplot3d(x=hp, y=mpg, z=wt))
+with(mtcars, scatterplot3d(x=hp, y=mpg, z=wt,
+                           type="h", pch=16, highlight.3d = TRUE))
+#interactive
+library(car)
+with(mtcars, scatter3d(x=hp, y=mpg, z=wt))
+with(mtcars, scatter3d(x=hp, y=mpg, z=wt, 
+                       groups=factor(am), surface=FALSE))
+
