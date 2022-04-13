@@ -15,5 +15,5 @@ Time| Topic
 12:30 PM – 1:30 PM | Lunch Break +Talk (by TBD winning team of SCASA 2022 Regional Statistics Data Visualization Poster Competition)
 1:30 PM – 2:30 PM | Session IV - Maps and interactive graphs
 2:30 PM – 2:40PM | Break
-2:40 PM – 3:40 PM | Session V - Case study and wrap-up
+2:40 PM – 3:40 PM | Session V - Case study
 3:40 PM – 4:00 PM | Book Raffle and Wrap-up
