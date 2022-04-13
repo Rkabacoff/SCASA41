@@ -150,6 +150,13 @@ country_choropleth(df_pop_country,
                    num_colors=3,
                    zoom=c("united states of america", "canada", "mexico"))
 
+# change colors
+country_choropleth(df_pop_country, 
+                   "2012 World Bank Population Estimates", 
+                   num_colors=3,
+                   zoom=c("united states of america", "canada", "mexico")) +
+  scale_fill_brewer(palette="Set1")
+
 # state maps
 data(df_pop_state)
 state_choropleth(df_pop_state, 
