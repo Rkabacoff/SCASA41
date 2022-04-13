@@ -14,7 +14,7 @@ Next, install the following packages
 ```
 pkgs <- c("ggplot2", "dplyr", "mosaicData", "carData", "gapminder", 
           "scales", "treemapify", "plotly", "leaflet", "ggridges",
-          "ggbeeswarm")
+          "ggbeeswarm", "ggmap")
 install.packages(pkgs)
 ```
 
