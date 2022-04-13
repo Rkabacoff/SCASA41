@@ -947,22 +947,24 @@ leaflet() %&gt;%
 <li>zip_chorpleth()</li>
 </ul>
 
+<p>Resulting maps are <strong>ggplot2</strong> graphs and can be further modified.</p>
+
 </div>
 
 </section>
 <section data-transition="linear" data-transition-speed="default">
 <h3>Country choropleth maps</h3>
 <div class="slideContent" >
-<pre><code>library(chorplethr)
+<pre class="fragment"><code>library(chorplethr)
 country_choropleth(data, &quot;title&quot;, num_colors = , zoom = )
 </code></pre>
 
 <ul>
-<li><em>data</em> should have two columns (region and value)</li>
-<li>Elements in the &ldquo;region&rdquo; column must exactly match how regions are named in the &ldquo;region&rdquo; column in ?country.map.</li>
-<li><em>num_colors</em> - number of colors used in map (0-9) with 0 for divergent scale and
+<li class="fragment"><em>data</em> should have two columns (region and value)</li>
+<li class="fragment">Elements in the &ldquo;region&rdquo; column must exactly match how regions are named in the &ldquo;region&rdquo; column in ?country.map.</li>
+<li class="fragment"><em>num_colors</em> - number of colors used in map (0-9) with 0 for divergent scale and
 1 for continuous scale.</li>
-<li><em>zoom</em> is a character vector listing countries</li>
+<li class="fragment"><em>zoom</em> is a character vector listing countries</li>
 </ul>
 
 </div>
@@ -1001,6 +1003,24 @@ county_choropleth(data, &quot;title&quot;, num_colors = ,
 1 for continuous scale.</li>
 <li><em>state_zoom</em> and  <em>county_zoom</em> are state and county vectors</li>
 </ul>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>Changing map colors</h3>
+<div class="slideContent" >
+<p>modify choroplethr graph with ggplot2 functions</p>
+
+<p>example</p>
+
+<pre><code>library(chorplethr)
+county_choropleth(data, &quot;title&quot;, num_colors = , 
+                  state_zoom = , county_zoom) +
+  scale_fill_brewer(palette = &quot;Set1&quot;)
+</code></pre>
+
+<p>see <a href="https://r-graph-gallery.com/38-rcolorbrewers-palettes.html">https://r-graph-gallery.com/38-rcolorbrewers-palettes.html</a></p>
 
 </div>
 
