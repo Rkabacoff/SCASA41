@@ -7,13 +7,13 @@ Slides for the workshop are listed here.
 
 ## Morning
 
-* [Session 1 Slides](Session01.html)
-* [Session 2 Slides](Session02.html)
-* [Session 3 Slides](Session03.html)
+* [Session 1 Slides](slides/Session01.html)
+* [Session 2 Slides](slides/Session02.html)
+* [Session 3 Slides](slides.Session03.html)
 
 ## Afternoon
 
-* [Session 4 Slides](Session04.html)
+* [Session 4 Slides](slides/Session04.html)
 * [Case Studies](slides/Session05_Case_Studies.html)
 
 ## Handout
