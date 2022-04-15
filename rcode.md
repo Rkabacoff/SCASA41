@@ -17,5 +17,5 @@ Covid19 vaccination rates in California
 * [code.R](code/case_study_ca_vaccination_rates.R) 
 * [vaccinationRates.csv](code/vaccinationRates.csv)
 
-Faculty Salaries
+Gender and Faculty Salaries
 * [code.R](code/case_study_faculty_salaries.R)
