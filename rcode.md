@@ -12,7 +12,7 @@ Session | Topics | R file | Text file
 03 | Bivariate and multivariage graphs | [.R](code/03_bivariate_and_multivariate_graphs.R) | [.txt](code/03_bivariate_and_multivariate_graphs.txt)
 04 | Time series, interactive graphs, and maps | [.R](04_time_series_maps_interactive.R) | [.txt](code/04_time_series_maps_interactive.txt)
 
-## Case Studies
+#### Additional case studies
 Covid19 vaccination rates in California
 * [code.R](code/case_study_ca_vaccination_rates.R) 
 * [vaccinationRates.csv](code/vaccinationRates.csv)
