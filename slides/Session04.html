@@ -887,7 +887,8 @@ ggplot(data, aes(x = datevar, y = )) +
 <div class="slideContent" >
 <pre><code>library(ggplot2)
 library(plotly)
-p &lt;- ggplot(economics, aes(x = date, y = psavert)) +
+p &lt;- ggplot(economics, 
+            aes(x = date, y = psavert)) +
   geom_line() 
 ggplotly(p)
 </code></pre>
@@ -993,7 +994,7 @@ state_choropleth(data, &quot;title&quot;, num_colors = , zoom = )
 <div class="slideContent" >
 <pre><code>library(chorplethr)
 county_choropleth(data, &quot;title&quot;, num_colors = , 
-                  state_zoom = , county_zoom)
+                  state_zoom = , county_zoom = )
 </code></pre>
 
 <ul>
@@ -1016,7 +1017,7 @@ county_choropleth(data, &quot;title&quot;, num_colors = ,
 
 <pre><code>library(chorplethr)
 county_choropleth(data, &quot;title&quot;, num_colors = , 
-                  state_zoom = , county_zoom) +
+                  state_zoom = , county_zoom = ) +
   scale_fill_brewer(palette = &quot;Set1&quot;)
 </code></pre>
 
