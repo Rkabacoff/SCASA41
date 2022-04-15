@@ -14,7 +14,7 @@ Slides for the workshop are listed here.
 ## Afternoon
 
 * [Session 4 Slides](Session04.html)
-* Case Study
+* [Case Studies](Session05_Case_Studies.html)
 
 ## Handout
 
