@@ -20,7 +20,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "schedule.md", title: "Schedule"}
   - {file: "slides.md", title: "Slides"}
   - {file: "rcode.md", title: "R Code"}
-  - {file: "RiA3e.md", title: "Book"}
+  - {file: "RiA3e/index.md", title: "Book"}
   - {file: "about.md", title: "Presenter"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
