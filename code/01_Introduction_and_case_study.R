@@ -87,12 +87,14 @@ ggplot(plotdata, aes(x = exper, y = wage, color = sex)) +
        color = "Gender") +
   theme_minimal()
 
-# remove construction and other
+# final plot
+# remove construction and other categories
+# move legend to top
 plotdata <-
   plotdata %>%
   filter(sector != "const", sector != "other")
 ggplot(plotdata, aes(x = exper, y = wage, color = sex)) +
-  geom_point(alpha = .7, size = 2) +
+  geom_point(alpha = .7, size = 1.5) +
   geom_smooth(method = "lm", size = 1, se = FALSE) +
   scale_x_continuous(breaks = seq(0, 60, 10)) +
   scale_y_continuous(breaks = seq(0, 30, 5), label = scales::dollar) +
@@ -104,4 +106,5 @@ ggplot(plotdata, aes(x = exper, y = wage, color = sex)) +
        x = " Years of Experience",
        y = "Hourly Wage",
        color = "Gender") +
-  theme_bw()
+  theme_minimal() +
+  theme(legend.position="top")
