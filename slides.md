@@ -16,6 +16,3 @@ Slides for the workshop are listed here.
 * [Session 4 Slides](slides/Session04.html)
 * [Case Studies](slides/Session05_Case_Studies.html)
 
-## Handout
-
-* [Customizing ggplot2 graphs](handouts/RinAction_CH19.pdf) - from *R in Action (3rd edition)*
