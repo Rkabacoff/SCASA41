@@ -879,6 +879,29 @@ hljs.initHighlightingOnLoad();
 <section data-transition="linear" data-transition-speed="default">
 <h3>Before we jump into visualizing data</h3>
 <div class="slideContent" >
+<p>Importing data</p>
+
+<p>Packages</p>
+
+<ul>
+<li><strong>readr</strong> - read text files</li>
+<li><strong>readxl</strong> - read Excel files</li>
+<li><strong>haven</strong> - read SAS, IBM SPSS, and Stata files</li>
+<li><strong>rvest</strong> - scrape web pages</li>
+</ul>
+
+<p>Access databases with <strong>RMySQL</strong>, <strong>ROracle</strong>, <strong>RPostgreSQL</strong>, <strong>RSQLite</strong></p>
+
+<p>Use <strong>load()</strong> function to open R data files.</p>
+
+<p>Use <strong>data()</strong> to open package data files.</p>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>Before we jump into visualizing data</h3>
+<div class="slideContent" >
 <p>Data management with the <strong>dplyr</strong> package</p>
 
 <p>Verbs</p>
@@ -887,7 +910,9 @@ hljs.initHighlightingOnLoad();
 <li><strong>select</strong> - select variables (columns) </li>
 <li><strong>filter</strong> - select observations (rows)</li>
 <li><strong>mutate</strong> - create new or transform existing variables</li>
-<li><strong>summarize</strong> - summarize data (counts, means, etc.)</li>
+<li><strong>summarize</strong> - summarize data (counts, means, etc.)
+</br></br>
+<strong>group_by</strong> - carry out actions within subgroups </li>
 </ul>
 
 </div>
@@ -914,8 +939,6 @@ hljs.initHighlightingOnLoad();
 <pre><code class="r">library(ggplot2)
 data(CPS85, package=&quot;mosaicData&quot;)
 </code></pre>
-
-<p><strong>group_by</strong> - carry out actions within subgroups </p>
 
 </div>
 
