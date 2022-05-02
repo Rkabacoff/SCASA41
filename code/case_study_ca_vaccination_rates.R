@@ -16,7 +16,7 @@ df<- county.map %>%
   filter(STATE == "06") %>%
   select(NAME, region) %>%
   distinct(NAME, region) %>% 
-  inner_join(mydata) %>%
+  inner_join(rates) %>%
   select(region, value)
 
 # create graph 
