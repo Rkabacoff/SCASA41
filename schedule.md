@@ -5,7 +5,7 @@ title: "Course Schedule"
 
 Session | Topic
 ----|------
-| Introduction
+Introduction | Course overview
 Session I |  Introduction and case study
 Session II | Univariate graphs
 Session III | Multivariate graphs
