@@ -2,7 +2,7 @@
 layout: page
 title: "Modern Data Visualization with R"
 ---
-# Saturday, April 23, 2022
+
 ![](mosaic.jpg)
 
 Location: via Zoom ([https://apu.zoom.us/j/84503314039](https://apu.zoom.us/j/84503314039))
