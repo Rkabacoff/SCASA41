@@ -5,6 +5,7 @@ title: "Modern Data Visualization with R"
 
 ![](mosaic.jpg)
 
+This site provides a recording of the 41st Annual Workshop for the Southern California Chapter of the American Statistical Association. Entitled "Modern Data Visualization with R", it is an in-depth introduction to ggplot2 graphics and other visualiation techniques using the R programming language.
 
 ## Prerequisites
 Before the workshop
