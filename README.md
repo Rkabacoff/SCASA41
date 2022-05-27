@@ -4,4 +4,4 @@ permalink: "/about/"
 layout: page
 ---
 
-## SCASA41 Presentation
+## Modern Data Visualization Workshop
