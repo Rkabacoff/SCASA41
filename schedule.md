@@ -10,4 +10,4 @@ Session I |  Introduction and case study | [video](https://youtu.be/Gu3QRxntMYE)
 Session II | Univariate graphs | [video](https://youtu.be/i8man1Rnjio)
 Session III | Multivariate graphs | [video](https://youtu.be/noOFaizTZsE)
 Session IV | Time series, maps, and interactive graphs | [video](https://youtu.be/6gACgGPGQss)
-Session V | Case study | video
+Session V | Case study | [video](https://youtu.be/xBSynSmSC2g)
