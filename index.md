@@ -8,7 +8,7 @@ title: "Modern Data Visualization with R"
 This site provides a recording of **41st Annual Workshop** for the Southern California Chapter of the *American Statistical Association*. It offers an in-depth introduction to *ggplot2* graphics and other visualiation techniques using the R programming language.
 
 ## Prerequisites
-Before the workshop
+If you want to follow along with the videos
 * install [R](https://cran.r-project.org/)
 * install [RStudio Desktop](https://www.rstudio.com/products/rstudio/download/) (open source edition)
 
