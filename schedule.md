@@ -7,7 +7,7 @@ title: "Workshop Sessions"
 Session | Topic | video
 ----|------|----------
 Session I |  Introduction and case study | [video](https://youtu.be/Gu3QRxntMYE)
-Session II | Univariate graphs | [video](https://drive.google.com/file/d/1QTGcc3oT9lM0JorYdOtX7_Kg8wtNjhs8/view?usp=sharing)
+Session II | Univariate graphs | [video](https://youtu.be/i8man1Rnjio)
 Session III | Multivariate graphs | video
 Session IV | Maps and interactive graphs | video
 Session V | Case study | video
